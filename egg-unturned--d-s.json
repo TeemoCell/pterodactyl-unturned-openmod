@@ -5,9 +5,9 @@
     },
     "exported_at": "2019-07-01T12:01:31+08:00",
     "name": "Unturned-DS",
-    "author": "service@hcgcloud.com",
-    "description": "Unturned dedicated server with Rocketmod.",
-    "image": "hcgcloud\/pterodactyl-unturned:latest",
+    "author": "MichaelCrow",
+    "description": "Unturned dedicated server with OpenMod.",
+    "image": "michaelcrow\/pterodactyl-unturned-openmod:latest",
     "startup": ".\/Unturned_Headless.x86_64 -batchmode -nographics -ThreadedConsole -port {{SERVER_PORT}} -maxplayers {{MAX_PLAYERS}} +secureserver\/unturned",
     "config": {
         "files": "{}",
