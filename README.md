@@ -14,6 +14,6 @@ Pterodactyl Unturned using Unturned Dedicated Server
 - Allow users to configure if they need `OpenMod Auto Update`, `Game Auto Update` or not
 
 ## How to use
-Just simply import `egg-unturned-openmod--d-s.json` to your panel and then you can create a server.
+Just simply import `egg-unturned-openmod.json` to your panel and then you can create a server.
 
 Also be noticed that you should allocate `port+1` and `port+2` to a server.
