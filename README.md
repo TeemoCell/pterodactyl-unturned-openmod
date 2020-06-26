@@ -1,7 +1,7 @@
-# pterodactyl-unturned
-[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/hcgcloud/pterodactyl-unturned.svg?style=flat)](https://hub.docker.com/r/hcgcloud/pterodactyl-unturned)
-[![Docker Pulls](https://img.shields.io/docker/pulls/hcgcloud/pterodactyl-unturned.svg?style=flat)](https://hub.docker.com/r/hcgcloud/pterodactyl-unturned)
-[![Discord](https://img.shields.io/discord/609764930899673092)](https://discord.gg/5KnNVfv)
+# pterodactyl-unturned-openmod
+[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/restoremonarchy/pterodactyl-unturned-openmod.svg?style=flat)](https://hub.docker.com/r/hcgcloud/pterodactyl-unturned)
+[![Docker Pulls](https://img.shields.io/docker/pulls/restoremonarchy/pterodactyl-unturned-openmod.svg?style=flat)](https://hub.docker.com/r/hcgcloud/pterodactyl-unturned)
+[![Discord](https://img.shields.io/discord/666327627124047872)](https://discord.gg/7Xrqx2T)
 ![](https://img.shields.io/badge/status-prod-informational)
 
 Pterodactyl Unturned using Unturned Dedicated Server
