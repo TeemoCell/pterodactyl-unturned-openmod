@@ -33,9 +33,9 @@
             "rules": "required|integer|between:1,24"
         },
         {
-            "name": "Rocketmod Auto Update",
+            "name": "OpenMod Auto Update",
             "description": "Input 1 to enable or 0 to disable",
-            "env_variable": "ROCKET_AUTOUPDATE",
+            "env_variable": "OPENMOD_AUTOUPDATE",
             "default_value": "1",
             "user_viewable": 1,
             "user_editable": 1,
