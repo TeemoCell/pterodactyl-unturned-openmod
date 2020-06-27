@@ -9,7 +9,7 @@ fi
 
 if [ "${OPENMOD_AUTOUPDATE}" == "1" ]; then
     curl -s https://api.github.com/repos/openmod/OpenMod/releases/latest | jq -r ".assets[] | select(.name | contains(\"OpenMod.Unturned.Module\")) | .browser_download_url" | wget -i -
-	unzip -q OpenMod.Unturned.Module*.zip -d Modules && rm OpenMod.Unturned.Module*.zip
+	unzip -o -q OpenMod.Unturned.Module*.zip -d Modules && rm OpenMod.Unturned.Module*.zip
 fi
 
 cp -f linux64/steamclient.so Unturned_Headless_Data/Plugins/x86_64/steamclient.so
