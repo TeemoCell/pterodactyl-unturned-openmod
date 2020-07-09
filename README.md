@@ -9,7 +9,7 @@ Pterodactyl Unturned using Unturned Dedicated Server
 > This egg is running in our production, we will keep it well maintained and up to date.
 ## Features
 - Using Untured Dedicated Server(64-bit Linux Version) for a better performance
-- Rocketmod integrated
+- OpenMod integrated
 - Allow administrators to set `Max Players` variable
 - Allow users to configure if they need `OpenMod Auto Update`, `Game Auto Update` or not
 
