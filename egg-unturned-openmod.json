@@ -8,7 +8,7 @@
     "author": "michaelcrow@restoremonarchy.com",
     "description": "Unturned dedicated server with OpenMod.",
     "image": "michaelcrow\/pterodactyl-unturned-openmod:latest",
-    "startup": ".\/Unturned_Headless.x86_64 -batchmode -nographics -ThreadedConsole -port {{SERVER_PORT}} -maxplayers {{MAX_PLAYERS}} +secureserver\/unturned",
+    "startup": ".\/Unturned_Headless.x86_64 -batchmode -nographics -bind 0.0.0.0 -port {{SERVER_PORT}}",
     "config": {
         "files": "{}",
         "startup": "{\r\n    \"done\": \"Loading level: 100%\",\r\n    \"userInteraction\": []\r\n}",
@@ -23,15 +23,6 @@
         }
     },
     "variables": [
-        {
-            "name": "Max Players",
-            "description": "Max players allowed to play in the server",
-            "env_variable": "MAX_PLAYERS",
-            "default_value": "24",
-            "user_viewable": 1,
-            "user_editable": 0,
-            "rules": "required|integer|between:1,24"
-        },
         {
             "name": "OpenMod Auto Update",
             "description": "Input 1 to enable or 0 to disable",
